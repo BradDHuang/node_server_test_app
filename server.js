@@ -76,6 +76,13 @@ app.get("/about", (req, res) => {
     });
 });
 
+app.get("/app", (req, res) => {
+    res.render("app.hbs", {
+        pageTitle: "App page",
+        msg: "app testing."
+    });
+});
+
 // app.listen(8080, () => {
 
 app.listen(port, () => {
