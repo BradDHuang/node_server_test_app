@@ -19,6 +19,12 @@ git init
 ls -a
 git add package.json
 
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:BradDHuang/node_server_test_app.git
+git push -u origin master
+
 
 ls -al ~/.ssh
 eval "$(ssh-agent -s)"
