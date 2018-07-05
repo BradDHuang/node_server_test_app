@@ -1,0 +1,37 @@
+
+// command lines for this dir.
+
+npm init
+
+npm i express@4.16.3 --save
+
+node server.js
+nodemon server.js // optional
+
+npm i hbs@4.0.1 --save
+
+
+nodemon server.js -e js,hbs
+
+
+git --version
+git init
+ls -a
+git add package.json
+
+
+ls -al ~/.ssh
+eval "$(ssh-agent -s)"
+// Agent pid 5833
+
+
+heroku --help
+heroku login
+heroku keys:add
+heroku keys
+ssh -v git@heroku.com
+
+npm start // After "scripts" is added in package.json
+
+heroku create
+git push heroku
