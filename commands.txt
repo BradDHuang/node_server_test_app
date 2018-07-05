@@ -41,3 +41,9 @@ npm start // After "scripts" is added in package.json
 
 heroku create
 git push heroku
+heroku open
+
+
+
+
+
